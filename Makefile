@@ -12,7 +12,7 @@ GO ?= latest
 GORUN = env GO111MODULE=on go run
 
 3fnode:
-	go build -o ./build/bin/fffnode -trimpath  ./cmd/geth/
+	go build -o ./build/bin/3fnode -trimpath  ./cmd/geth/
 	@echo "Done building."
 	@echo "Run \"$(GOBIN)/3fnode\" to launch 3fnode."
 
